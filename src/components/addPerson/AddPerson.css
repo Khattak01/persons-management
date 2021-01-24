@@ -1,0 +1,50 @@
+.form-box{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.8);
+    z-index: 100;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    z-index: 110;
+    width: 400px;
+    height: 300px;
+    background-color: rgb(108, 208, 221);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form__input{
+    font-size: 20px;
+    color: #333333;
+    padding: 7px 20px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    outline: none;
+}
+.form__btn-add{
+    font-size: 20px;
+    color: #333333;
+    padding: 7px 20px;
+    background-color: #f0f0f0;
+    outline: none;
+}
+.form__btn-delete{
+    font-size: 20px;
+    color: #cfcdcd;
+    padding: 7px;
+    background-color: #e95252;
+    margin-bottom: 10px;
+    outline: none;
+    position: absolute;
+    bottom: -5px;
+    right: 5px;
+  }

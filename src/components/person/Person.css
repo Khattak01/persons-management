@@ -1,0 +1,35 @@
+.person{
+    /* border: 1px solid black; */
+    
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 18vh;
+    border-bottom: 1px solid black;
+}
+.person__name{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.person__age{
+    font-weight: 200;
+    font-size: 16px; 
+}
+.person__input{
+    width: 300px;
+    padding: 7px;
+    font-size: 16px;
+    outline: none;
+}
+.person__btn{
+    background-color: rgb(255, 95, 95);
+    height: 30px;
+    padding: 3px;
+    width: 100px;
+    outline: none;
+    font-weight: bold;
+}
